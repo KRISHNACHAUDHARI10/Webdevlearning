@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+     
+     .box {
+   
+       height: 110px;
+       width: 100%;
+       background-color: white;
+       border: 2px solid black;
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       font-family: 'Times New Roman', Times, serif;
+       text-transform: uppercase;
+       position: relative; /* Added to enable `left` property animation */
+     
+     }
+     main{
+      background-color: white;
+      width: 100%;
+     }
+    .box img{
+        margin: 0px;
+      width: 100px;
+      height: 100px;
+      position: relative;
+      animation-name: gumkad;
+      animation-duration: 4s;
+      animation-delay: 0;
+      animation-timing-function: ease-in-out;
+      animation-direction: alternate;
+      
+      animation-iteration-count: 2; /* Optional, if you want the animation to repeat */
+     }
+     @keyframes gumkad {
+        from{
+          left:0px;
+        }
+        to{
+        left: 100px;
+        }
+      }
+  </style>
+</head>
+<body>
+  <div class="box">
+
+
+    <img src="images/car.jpg">
+
+
+
+</div>
+</body>
+</html>

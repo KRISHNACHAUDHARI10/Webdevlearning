@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    .box{
+      width: 100px;
+      height:100px;
+      background-color: aqua;
+      border: 2px solid black;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      transition-property: all;
+      transition-duration: 2s;
+     transition-timing-function: ease-in-out;
+     
+     
+
+    }
+  
+    .box:hover{
+      background-color: blueviolet;
+      transform:scale(2);
+    }
+    .sn img{
+      transition-property: all;
+      transition-duration: 1s;
+     transition-timing-function: ease-in-out;
+    }
+    .sn img:hover{
+      transform: translate(100%);
+    }
+    .sn img{
+      margin: 40px;
+      width: 500px;
+      height: 500px;
+      transform: rotate(688deg);
+    }
+    .html{
+      background-image: url("gal.jpg");
+    }
+.my{
+  position: absolute;
+  top:5px;
+  
+}
+  </style>
+</head>
+<body>
+  <div class="main">
+   
+   <img src="gal.jpg">
+   <div class="sn">
+    <img src="set1.avif" class="my">
+   </div>
+  </div>
+</body>
+</html>

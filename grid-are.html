@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    .grid-area{
+      display:grid;
+      grid-template-areas:
+      "header header header header"
+      "slider main main main"
+      "footer footer footer footer";
+      grid-template-rows: 150px 1000px 100px 100px;
+      grid-template-columns: 150px 890px 500px 500px ;
+      gap:10px;
+      
+    }
+
+  
+      .grid-item{
+        background-color: springgreen;
+        border: 2px solid black;
+        text-align: center;
+        padding: 20px;
+        font-size: 1.2em;
+      }
+      .header{grid-area: header;}
+      .slider{grid-area: slider;}
+      .main{grid-area: main;}
+      .footer{grid-area: footer;}
+          
+  </style>
+</head>
+<body>
+    <div class="grid-area">
+      <div class="grid-item header">Header</div>
+      <div class="grid-item slider">slider</div>
+      <div class="grid-item main">main</div>
+      <div class="grid-item footer">footer</div>
+
+    </div>
+</body>
+</html>

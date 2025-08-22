@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script src="jq/jquery-3.7.1.min.js"></script>
+  <style>
+    .box{
+      display: flex;
+    }
+
+    .box .bo1{
+      background-color: aqua;
+      border: 2px solid black;
+      margin: 2px;
+      
+      height: 250px;
+      width: 250px;
+      display:  flex;
+    }
+   @media only scre (max-width:500px){
+    .box{
+      
+      flex-direction: column;
+
+    }
+    .box .bo1{
+       margin: 10px;
+       border: 9px solid  black;
+
+    }
+   }
+  
+  </style>
+</head>
+<body>
+  <div class="box">
+  <div class="bo1">BOX1</div>
+  <div class="bo1">BOX2</div>
+  <div class="bo1">BOX3</div>
+</div>
+</body>
+</html>

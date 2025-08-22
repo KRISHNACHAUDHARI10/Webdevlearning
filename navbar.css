@@ -1,0 +1,29 @@
+*{
+  margin:0;
+  padding:0;
+}
+header{
+  height: 75px;
+  background-color: yellowgreen;
+  border: 2px solid black;
+
+}
+ 
+header nav{
+  text-align: left;
+  line-height: 25px;
+   
+}
+header nav a{
+  padding: 15px;
+  font-size: 25px;
+  line-height: 50px;
+  text-decoration: none;
+}
+
+.input{
+  padding: 2px;
+  width: 14%;
+  height: 30px;
+  border: 2px solid black;
+}
